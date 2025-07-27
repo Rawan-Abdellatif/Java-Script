@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="./style.css">
+        <title>WIT Cards</title>
+    </head>
+    <body>
+        <!-- container for the cards -->
+         <section class="container">
+            <div class="dropdown">
+                
+                <select id="" name="">
+                    <option value=""selected disabled>click to sort result</option>
+                    <option value="name">Name</option>
+                    <option value="level">Level</option>
+                    <option value="points">Points</option>
+                </select>
+            </div>
+            <!-- individual cards -->
+            <div class="card">
+                <!-- left hand side of the card -->
+                <div class="left-info" style="--background-color: blue">
+                    <div>
+                        <!-- user level -->
+                        <p id="user-level">Level 13</p>
+                    </div>
+                    <div>
+                        <!-- user image -->
+                        <img src="https://cdn-icons-png.flaticon.com/512/147/147144.png">
+                    </div>
+                    <div>
+                        <!-- user points -->
+                       <p id="user-points">5,434 points</p> 
+                    </div>
+                </div>
+                <!-- right hand side of the card -->
+                <div class="right-info">
+                    <header>
+                        <h1>John Doe</h1>
+                    </header>
+                    <div>
+                        <p id="user-description">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a volutpat mauris, at molestie lacus. Nam vestibulum sodales odio ut pulvinar.
+                        </p>
+                    </div>
+                    <div class="linkedin-link">
+                        <a href="https://www.linkedin.com/feed/">
+                            <i class="fa fa-linkedin-square"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+             <!-- individual cards -->
+            <div class="card">
+                <!-- left hand side of the card -->
+                <div class="left-info" style="--background-color: red">
+                    <div>
+                        <!-- user level -->
+                        <p id="user-level">Level 13</p>
+                    </div>
+                    <div>
+                        <!-- user image -->
+                        <img src="https://cdn-icons-png.flaticon.com/512/147/147144.png">
+                    </div>
+                    <div>
+                        <!-- user points -->
+                       <p id="user-points">5,434 points</p> 
+                    </div>
+                    <div class="flex-wrap"> <button class="plus-minus-button">+</button></div>
+                    <div> <button class="plus-minus-button">-</button></div>
+
+                </div>
+                <!-- right hand side of the card -->
+                <div class="right-info">
+                    <header>
+                        <h1>John Doe</h1>
+                    </header>
+                    <div>
+                        <p id="user-description">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a volutpat mauris, at molestie lacus. Nam vestibulum sodales odio ut pulvinar.
+                        </p>
+                    </div>
+                    <div class="linkedin-link">
+                        <a href="https://www.linkedin.com/feed/">
+                            <i class="fa fa-linkedin-square"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+             <!-- individual cards -->
+            <div class="card">
+                <!-- left hand side of the card -->
+                <div class="left-info" style="--background-color: purple">
+                    <div>
+                        <!-- user level -->
+                        <p id="user-level">Level 13</p>
+                    </div>
+                    <div>
+                        <!-- user image -->
+                        <img src="https://cdn-icons-png.flaticon.com/512/147/147144.png">
+                    </div>
+                    <div>
+                        <!-- user points -->
+                       <p id="user-points">5,434 points</p> 
+                    </div>
+                </div>
+                <!-- right hand side of the card -->
+                <div class="right-info">
+                    <header>
+                        <h1>John Doe</h1>
+                    </header>
+                    <div>
+                        <p id="user-description">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a volutpat mauris, at molestie lacus. Nam vestibulum sodales odio ut pulvinar.
+                        </p>
+                    </div>
+                    <div class="linkedin-link">
+                        <a href="https://www.linkedin.com/feed/">
+                            <i class="fa fa-linkedin-square"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+             <!-- individual cards -->
+            <div class="card">
+                <!-- left hand side of the card -->
+                <div class="left-info" style="--background-color: yellow">
+                    <div>
+                        <!-- user level -->
+                        <p id="user-level">Level 13</p>
+                    </div>
+                    <div>
+                        <!-- user image -->
+                        <img src="https://cdn-icons-png.flaticon.com/512/147/147144.png">
+                    </div>
+                    <div>
+                        <!-- user points -->
+                       <p id="user-points">5,434 points</p> 
+                    </div>
+                </div>
+                <!-- right hand side of the card -->
+                <div class="right-info">
+                    <header>
+                        <h1>John Doe</h1>
+                    </header>
+                    <div>
+                        <p id="user-description">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a volutpat mauris, at molestie lacus. Nam vestibulum sodales odio ut pulvinar.
+                        </p>
+                    </div>
+                    <div class="linkedin-link">
+                        <a href="https://www.linkedin.com/feed/">
+                            <i class="fa fa-linkedin-square"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+         </section>
+
+
+         <div>
+            <p>This is a definition List</p>
+
+            <dl>
+                <dt>Courses</dt>
+                <dd>This is an overview of course</dd>
+                <dt>HTML</dt>
+                <dd>This is an overview of HTML</dd>
+            </dl>
+         </div>
+         <!-- Firebase App (the core Firebase SDK) -->
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+
+<!-- Firebase Realtime Database -->
+<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+
+         <script src="script.js"></script>
+         
+    </body>
+</html>
